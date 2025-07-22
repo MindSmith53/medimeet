@@ -6,7 +6,7 @@ import { redirect } from "next/navigation";
 import { Calendar, Clock, DollarSign } from "lucide-react";
 // import DoctorAppointmentsList from "./_components/appointments-list";
 // import { getDoctorEarnings, getDoctorPayouts } from "@/actions/payout";
-import { DoctorEarnings } from "./_components/doctor-earnings";
+// import { DoctorEarnings } from "./_components/doctor-earnings";
 
 export default async function DoctorDashboardPage() {
   const user = await getCurrentUser();
